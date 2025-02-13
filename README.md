@@ -16,18 +16,18 @@ Key files:
 2. React and Next.js Concepts:
 
 a. Server Components:
-The `app/layout.tsx` and `app/page.tsx` are server components by default in Next.js 13+. They're rendered on the server, improving initial page load performance and SEO.
+The app/layout.tsx and app/page.tsx are server components by default in Next.js 13+. They're rendered on the server, improving initial page load performance and SEO.
 
 b. Client Components:
-Components like `RegistrationForm.tsx`, `Feed.tsx`, and `Post.tsx` are marked with "use client" directive. This allows them to use React hooks and handle client-side interactivity.
+Components like RegistrationForm.tsx, Feed.tsx, and Post.tsx are marked with use client directive. This allows them to use React hooks and handle client-side interactivity.
 
 c. State Management:
-The application uses React's `useState` hook for local state management. For example, in the `Feed` component, we manage the state of posts:
+The application uses React's useState hook for local state management. For example, in the Feed component, we manage the state of posts:
 
 const [posts, setPosts] = useState(initialPosts)
 
 d. Props and Component Composition:
-The application demonstrates how to pass props between components. For instance, the `Post` component receives props from the `Feed` component:
+The application demonstrates how to pass props between components. For instance, the Post component receives props from the Feed component:
 
 <Post 
   key={post.id} 
@@ -37,7 +37,7 @@ The application demonstrates how to pass props between components. For instance,
 />
 
 3. TypeScript:
-The project uses TypeScript, which adds static typing to JavaScript. This is evident in the type definitions, like the `PostProps` interface in the `Post` component:
+The project uses TypeScript, which adds static typing to JavaScript. This is evident in the type definitions, like the PostProps interface in the `Post` component:
 
 
 interface PostProps {
@@ -59,7 +59,7 @@ html
 <div className="border p-4 rounded">
 
 5. Form Handling:
-The `RegistrationForm` and `Post` components demonstrate form handling in React, including controlled inputs and form submission:
+The RegistrationForm and Post components demonstrate form handling in React, including controlled inputs and form submission:
 
 const [username, setUsername] = useState('')
 <input
