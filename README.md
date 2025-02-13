@@ -6,11 +6,11 @@ The project is built using Next.js, a popular React framework that provides feat
 
 Key files:
 
-- `app/layout.tsx`: The root layout component
-- `app/page.tsx`: The main page component
-- `components/RegistrationForm.tsx`: User registration form
-- `components/Feed.tsx`: Displays the list of posts
-- `components/Post.tsx`: Individual post component
+- app/layout.tsx: The root layout component
+- app/page.tsx: The main page component
+- components/RegistrationForm.tsx: User registration form
+- components/Feed.tsx: Displays the list of posts
+- components/Post.tsx: Individual post component
 
 
 2. React and Next.js Concepts:
